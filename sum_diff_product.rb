@@ -1,14 +1,15 @@
-puts "Insert a number"
-first_number = gets.chomp
+def sum_diff_pro (x,y)
 
-puts "Give me another number"
-second_number = gets.chomp
-
-answerAdd = first_number.to_i + second_number.to_i
-answerDiff = first_number.to_i - second_number.to_i
-answerPro = first_number.to_i * second_number.to_i
+answerAdd = sum_diff_pro.to_i
+answerDiff = sum_diff_pro.to_i
+answerPro = sum_diff_pro.to_i
 
 puts " "
 puts answerAdd
 puts answerDiff
 puts answerPro
+end
+
+
+
+sum_diff_pro (9,2)
